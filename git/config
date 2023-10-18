@@ -10,3 +10,11 @@
 [alias]
 	s  = status --branch --short --untracked-files=no
 	ss = status --branch --short
+[gpg]
+	program = /opt/homebrew/bin/gpg
+[commit]
+	gpgSign = true
+[tag]
+	gpgSign = true
+[includeIf "gitdir:~/projects/github/"]
+	path = ~/.config/git/github.config
