@@ -1,0 +1,12 @@
+[user]
+	username = twiccox
+	name = Alan Chang
+	email = twiccox@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	excludesfile = /Users/alanaudi/.config/git/ignore
+	editor = nvim
+[alias]
+	s  = status --branch --short --untracked-files=no
+	ss = status --branch --short
