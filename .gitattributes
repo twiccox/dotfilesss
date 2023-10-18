@@ -1,4 +1,5 @@
 ### Find languages.yml
 ### https://github.com/github/linguist/blob/32ec19c/lib/linguist/languages.yml
 git/config linguist-language=gitconfig
+git/github.config linguist-language=gitconfig
 git/ignore linguist-language=gitignore
