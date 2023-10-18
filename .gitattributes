@@ -3,3 +3,5 @@
 git/config linguist-language=gitconfig
 git/github.config linguist-language=gitconfig
 git/ignore linguist-language=gitignore
+
+git/github.config filter=ignore-signing-key

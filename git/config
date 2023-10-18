@@ -18,3 +18,5 @@
 	gpgSign = true
 [includeIf "gitdir:~/projects/github/"]
 	path = ~/.config/git/github.config
+[filter "ignore-signing-key"]
+	clean = sed 's/signingKey = .*/signingKey = [GPG key ID]/'
